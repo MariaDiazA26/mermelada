@@ -1,0 +1,46 @@
+<html>
+<form action="/encuesta" method="get">
+    <fieldset>
+    <legend>Encuesta de satisfacción</legend>
+    <p>Por favor, califique del 1 al 5 los siguientes aspectos de nuestro servicio:</p>
+    <p>
+    <label for="atencion">Atención al cliente:</label>
+    <input type="number" id="atencion" name="atencion" min="1" max="5">
+    </p>
+    <p>
+    <label for="calidad">Calidad del producto:</label>
+    <input type="range" id="calidad" name="calidad" min="1" max="5">
+    </p>
+    <p>¿Que color le gustaría que tuviera nuestro logo?</p>
+    <p><input type="color" id="color" name="color"></p>
+    <p>¿Qué tipo de productos le gustaria que ofreciéramos?</p>
+    <p><select id="producto" name="producto">
+    <option value="">Seleccione una opcion</option>
+    <option value="ropa">Ropa</option>
+    <option value="zapatos">Zapatos</option>
+    <option value="accesorios">Accesorios</option>
+    <option value="otros">Otros</option>
+    </select></p>
+    <p>¿Qué medios de comunicación usa para seguirnos?</p>
+    <p><input type="checkbox" id="facebook" name="medio" value="facebook">
+    <label for="facebook">Facebook</label>
+    <input type="checkbox" id="twitter" name="medio" value="twitter">
+    <label for="twitter">Twitter</label>
+    <p><select id="producto" name="producto">
+        <option value="otros">Otros</option>
+        </select></p>
+        <p>¿Que medios de comunicación usa para seguirnos?</p>
+        <p><input type="checkbox" id="facebook" name="medio" value="facebook">
+        <label for="facebook">Facebook</label>
+        <input type="checkbox" id="twitter" name="medio" value="twitter">
+        <label for="twitter">Twitter</label>
+        <input type="checkbox" id="instagram" name="medio" value="instagram">
+        <label for="instagram">Instagram</label>
+        <input type="checkbox" id="youtube" name="medio" value="youtube">
+        <label for="youtube">YouTube</label></p>
+        <p><input type="submit" value="Enviar"></p>
+        </fieldset>
+        
+        </form>
+
+    </html>
